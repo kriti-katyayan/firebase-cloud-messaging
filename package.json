@@ -1,0 +1,14 @@
+{
+  "name": "firebase_cloud",
+  "version": "1.0.0",
+  "description": "POC for cloud messaging in firebase from node.js server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KRITI KATYAYAN",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^7.2.0"
+  }
+}
