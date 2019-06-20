@@ -1,14 +1,14 @@
 var admin = require("firebase-admin");
 
-var serviceAccount = require("/Users/user/wordsmaya_learning/firebase_cloud/fir-cloud-messaging-80c89-firebase-adminsdk-exily-1bcc01b959 (1).json");
+var serviceAccount = require("json key from firebase");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://fir-cloud-messaging-80c89.firebaseio.com"
+  databaseURL: "<database here>"
 });
 
 
-var registrationToken = "d704dHgpeRc:APA91bHBbXK-mgzdxr9hKyKfB9320kFTjSD5m43VRaplRyeoQWeITeqcfGvFbrS_f-rKuFOb61gIazQbBl6Vol9TklfjrXFTJaiDAINiexogObx0ZeR2dVIm9hcAym3ngDGVLPu1-3h7";
+var registrationToken = "<your registration token here>";
 
 var payload = {
   notification: {
