@@ -1,6 +1,6 @@
 # firebase-cloud-messaging
 
-# # Aim :  To generate notifications from the custom backend server in node.js to the client app.
+# Aim :  To generate notifications from the custom backend server in node.js to the client app.
 
 3 components - 
 
